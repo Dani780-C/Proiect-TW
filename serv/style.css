@@ -1,0 +1,335 @@
+
+header{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color:white;
+    margin: 0 0 0 0;
+    background-color: black;
+}
+
+body{
+    background-color:#2F4F4F;
+    margin: 0 0 0 0;
+    padding-bottom: 20px;
+}
+
+h1{
+    margin: 0;
+    font-size: 30px;
+}
+
+h2{
+    margin: 0 0 0 0;
+    background-color: black;
+    cursor: default;
+}
+
+.navigation-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1em 1em 1em 1em;
+    border: 15px 15px 15px 15px;
+}
+
+.navigation-item{
+    padding: 3px 3px 3px 3px;
+    margin: 0 130px 0 130px;  
+}
+
+.item-button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+.navigation-item :hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.idea-container {
+    display: grid;
+    border-style:ridge;
+    border-width: thin;
+    margin: 30px 15px 30px 15px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+    background-color: black;
+    border-bottom: none;
+}
+
+.info-idea {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0 120px 0 120px;
+}
+
+.ideaTitle {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 30px 0 30px;
+    border-style: solid;
+    border-width: thin;
+}
+
+.sellerName {
+    color: #9b9b9b;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: transparent;
+    text-align: center;
+    text-transform: capitalize;
+    list-style:disc;
+    padding: 0 30px 0 30px;
+}
+
+
+.ideaPrice {
+    color: snow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 30px 0 30px;
+    list-style:disc;
+}
+
+.sellerContact {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 30px 0 30px;
+    border-style: solid;
+    border-width: thin;
+}
+
+.ideaDescription{
+    color: white;
+    overflow-wrap: break-word;
+    text-align: center;
+    padding: 0 30px 0 30px;
+}
+
+.description-container{
+    border-radius: 25px;
+    border-style: groove;
+    border-color: sienna;
+    margin: 0 25px 10px 25px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(40,111,36,0.8442607408159235) 100%, rgba(0,212,255,1) 100%);
+}
+
+
+.mesaj{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    border-radius: 20px;
+    border-width: thin;
+    box-shadow: inset 0 0 0 0 green;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+
+.mesaj:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: solid;
+    border-color: aliceblue;
+    border-width: thin;
+    box-shadow: inset 120px 0 0 0 green;
+}
+
+.buy-idea-button {
+    border-radius: 26px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    text-align: center;
+    text-transform: uppercase;
+    color:snow;
+    background-color: black;
+    margin-bottom: 1em;
+}
+
+.buy-idea-button:hover{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.8442607408159235) 0%, rgba(58,60,26,1) 63%, rgba(0,0,0,0.8442607408159235) 100%);
+}
+
+.inputs-sell-container{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 10px;
+    justify-content: space-evenly;
+}
+
+.idea-descript {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.idea-descript:last-of-type{
+    margin-top: 20px;
+    height: 200px;
+}
+
+.idea-title{
+    border-radius: 4px;
+    
+}
+
+.seller-name{
+    border-radius: 4px;
+   
+}
+.contact-list{
+    border-radius: 4px;
+
+}
+
+.idea-price{
+    border-radius: 4px;
+   
+}
+
+.post-button-container{
+    margin: auto;
+    width: 20%;
+    border: 0;
+    padding: 10px;
+}
+.post-button{
+    margin: 0;
+    width: 100%;
+    border: 3px solid auto;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+}
+
+.post-button:hover{
+    cursor: pointer;
+    background-color: rgb(7, 6, 32);
+    color: white;
+}
+
+.about-page {
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.about-page-title {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-content {
+    padding: 10px 400px 10px 400px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    border: 25px 25px 25px 25px;
+    height: 100px;
+    border-color: transparent;
+}
+
+footer{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+h4{
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px){
+    .navigation-list{
+        display: grid;
+        grid-template-columns: 1;
+        justify-content: center;
+        list-style: none;
+        padding: 1em 1em 1em 1em;
+        border: 15px 15px 15px 15px;
+    }
+    #about{
+        width: 90px;
+    }
+
+    .info-idea{
+        display: grid;
+        grid-gap: 5px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1280px){
+    .info-idea{
+        display: grid;
+        grid-gap: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 384px){
+    #main{
+        width: max-content;
+    }
+    .ideaDescription{
+        max-width: 300px;
+    }
+
+    .idea-container{
+        display: grid;
+        border-style:ridge;
+        border-width: thin;
+        margin: 30px 15px 30px 15px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 26px;
+        border-bottom-right-radius: 26px;
+        background-color: black;
+        border-bottom: none;
+    }
+
+    .buy-idea-button{
+        background-color: transparent;
+        border: transparent;
+    }
+   #body{
+       width: max-content;
+   }
+} 
